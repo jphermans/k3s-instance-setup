@@ -30,6 +30,22 @@ you pick and size a stack of self-hosted apps:
 - **Summary report** — credentials, URLs and chosen resources are saved to
   `/root/instance-setup-summary.txt` (mode 600) at the end of a real run.
 
+## Tech stack & versions
+
+Latest component versions at publication date (2026-11-02), verified via the
+GitHub releases API. The script itself always installs the latest available
+release at run time:
+
+| Framework / App | Latest at publication | Project |
+|-----------------|----------------------|---------|
+| Bash | 5.2 | ships with Debian/Ubuntu |
+| k3s | v1.37.1+k3s1 | [k3s-io/k3s](https://github.com/k3s-io/k3s/releases) |
+| Helm | v4.3.1 | [helm/helm](https://github.com/helm/helm/releases) |
+| Agent Zero | v2.15 | [frdel/agent-zero](https://github.com/frdel/agent-zero/releases) |
+| n8n | 2.45.7 | [n8n-io/n8n](https://github.com/n8n-io/n8n/releases) |
+| Grafana | v13.3.0 | [grafana/grafana](https://github.com/grafana/grafana/releases) |
+| Cloudflared | 2026.10.7 | [cloudflare/cloudflared](https://github.com/cloudflare/cloudflared/releases) |
+
 ## Screenshots
 
 Component selection menu:
